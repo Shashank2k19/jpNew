@@ -1,6 +1,67 @@
+.neon {
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff,
+    0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+}
+
 h1 {
   color: white;
 }
+footer {
+  color: white;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover {
+  color: #0d6139;
+}
+
+.home .whatsapp {
+  color: #25d366;
+  padding: 20px;
+  border-color: #25d366;
+  font-size: 30px;
+  transition: 0.2s;
+  background-color: transparent;
+  cursor: pointer;
+  color: #fff;
+  background: #25d366;
+  box-shadow: 0 0 10px #25d366, 0 0 30px #25d366, 0 0 60px #25d366;
+}
+.home .telegram {
+  color: #0088cc;
+  padding: 20px;
+  border-color: #0088cc;
+  font-size: 30px;
+  transition: 0.2s;
+  background-color: transparent;
+  cursor: pointer;
+  color: #fff;
+  background: #0088cc;
+  box-shadow: 0 0 10px #0088cc, 0 0 30px #0088cc, 0 0 60px #0088cc;
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
 /*--------------------------------------------------------------
 # WHY JP
 --------------------------------------------------------------*/
@@ -20,7 +81,7 @@ h1 {
 .services .icon-box .icon {
   width: 64px;
   height: 64px;
-  background: #009961;
+  background: #0d6139;
   border-radius: 50px;
   display: flex;
   align-items: center;
@@ -53,9 +114,9 @@ h1 {
 
 .services .icon-box:hover {
   transform: translateY(-10px);
-  border-color: #009961;
+  border-color: #0d6139;
 }
 
 .services .icon-box:hover h4 a {
-  color: #009961;
+  color: #0d6139;
 }
