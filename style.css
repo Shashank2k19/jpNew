@@ -30,6 +30,10 @@ footer a:hover {
   background: #25d366;
   box-shadow: 0 0 10px #25d366, 0 0 30px #25d366, 0 0 60px #25d366;
 }
+.home .whatsapp a {
+  color: #fff;
+  text-decoration: none;
+}
 .home .telegram {
   color: #0088cc;
   padding: 20px;
@@ -42,9 +46,17 @@ footer a:hover {
   background: #0088cc;
   box-shadow: 0 0 10px #0088cc, 0 0 30px #0088cc, 0 0 60px #0088cc;
 }
+.home .telegram a {
+  color: #fff;
+  text-decoration: none;
+}
 
 #buttons button {
   background-color: #0d6139;
+}
+#buttons button a {
+  color: white;
+  text-decoration: none;
 }
 
 .float {
