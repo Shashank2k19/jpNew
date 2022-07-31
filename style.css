@@ -22,7 +22,7 @@ footer a:hover {
   color: #25d366;
   padding: 20px;
   border-color: #25d366;
-  font-size: 30px;
+  font-size: 23px;
   transition: 0.2s;
   background-color: transparent;
   cursor: pointer;
@@ -34,7 +34,7 @@ footer a:hover {
   color: #0088cc;
   padding: 20px;
   border-color: #0088cc;
-  font-size: 30px;
+  font-size: 23px;
   transition: 0.2s;
   background-color: transparent;
   cursor: pointer;
@@ -44,6 +44,7 @@ footer a:hover {
 }
 
 .float {
+  text-decoration: none;
   position: fixed;
   width: 60px;
   height: 60px;
@@ -56,6 +57,9 @@ footer a:hover {
   font-size: 30px;
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
+}
+.float:hover {
+  color: white;
 }
 
 .my-float {
